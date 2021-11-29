@@ -28,7 +28,13 @@ create table delivery(
     deliverytracking varchar(50)
 );
 
+create table products_shop(
+products int,
+shop int
+);
 
+alter table products_shop add foreign key (products) references products(products);
+alter table products_shop add foreign key (shop) references shop(shop);
 alter table shop add foreign key (name) references products(code);
 alter table products add foreign key (name) references delivery(code);
 alter table shop add foreign key (delivery) references delivery(code);
