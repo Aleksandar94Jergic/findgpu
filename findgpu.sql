@@ -6,6 +6,8 @@ create table shop(
     code int not null primary key auto_increment,
     name int not null,
     address varchar(50),
+    price decimal(45.99),
+    quantity int(10),
     worktime datetime,
     delivery int not null,
     email varchar(50)
@@ -13,8 +15,9 @@ create table shop(
 
 create table products(
     code int not null primary key auto_increment,
-    name int not null,
+    name varchar(50),
     price decimal(45.99),
+    quantity int(10),
     warranty int(2),
     serialnumber int(12),
     specification varchar(50) not null
@@ -36,6 +39,4 @@ create table products_shop(
 
 alter table products_shop add foreign key (products) references products(code);
 alter table products_shop add foreign key (shop) references shop(code);
-alter table shop add foreign key (name) references products(code);
-alter table products add foreign key (name) references delivery(code);
 alter table shop add foreign key (delivery) references delivery(code);
