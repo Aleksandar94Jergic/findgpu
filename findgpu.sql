@@ -40,3 +40,6 @@ create table products_shop(
 alter table products_shop add foreign key (products) references products(code);
 alter table products_shop add foreign key (shop) references shop(code);
 alter table shop add foreign key (delivery) references delivery(code);
+
+insert into shop (code,name,address,price,quantity,worktime,delivery,email),
+values(null,'Links','Avenija Dubrovnik 14 10000 Zagreb','7999,99','15','Monday-Friday 08:00AM-08:00PM','Monday-Friday 09:00AM-05:00PM','ambienta@links.hr'),
