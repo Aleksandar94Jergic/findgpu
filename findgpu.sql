@@ -41,8 +41,9 @@ alter table products_shop add foreign key (products) references products(code);
 alter table products_shop add foreign key (shop) references shop(code);
 alter table shop add foreign key (delivery) references delivery(code);
 
-insert into shop (code,name,address,price,quantity,worktime,delivery,email),
+insert into shop (code,name,address,price,quantity,worktime,delivery,email)
 values(null,'Links','Avenija Dubrovnik 14 10000 Zagreb','7999,99','15','Monday-Friday 08:00AM-08:00PM','Monday-Friday 09:00AM-05:00PM','ambienta@links.hr'),
 values(null,'Ipon','Francia út. 40/b Budapest','10999,99','20','Monday-Friday 10:00AM-04:00PM','Monday-Friday 09:00AM-05:00PM','info@iponcomp.hr'),
 values(null,'Ibyte','Andrije Hebraanga 9 21000 Zadar','13999,99','10','Monday-Friday 08:00AM-04:00PM','Monday-Friday 09:00AM-05:00PM','info@ibyte.hr'),
 values(null,'Proxima Informatika','Stjepana Radića 15 44250 Petrinja','14869,99','5','Monday-Friday 08:00AM-08:00PM','Monday-Friday 09:00AM-05:00PM','petrinja@proxima-informatika.hr'),
+values(null,'Futura IT','Donje Vrapče 53 10000 Zagreb','12599,99','24','Monday-Friday 09:00AM-02:00PM','Monday-Friday 09:00AM-04:00PM','info@futura-it.hr');
