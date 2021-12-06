@@ -61,3 +61,5 @@ values(null,'Monday-Friday','DPD','Home delivery','Yes'),
 values(null,'Monday-Friday','Overseas Express','Home delivery','Yes'),
 values(null,'Monday-Friday','Hrvatska Pošta','Home delivery','Yes'),
 values(null,'Monday-Friday','OVERSEAS,DPD','Home delivery','Yes'),
+
+insert into products_shop (code,shop,products)
