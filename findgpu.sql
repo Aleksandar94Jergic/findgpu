@@ -55,3 +55,9 @@ values(null,'INNO3D GeForce RTX 3080 iChill Black LHR','13,769','31','24 months'
 values(null,'VGA Gigabyte GF RTX3080 AORUS X','14,599','4','24 months','894394772988','GDDR6X,10GB,320BIT,1755MHz'),
 values(null,'INNO3D GeForce RTX 3080 iChill X4 10 GB GDDR6X LHR','13,999','9','24 months','429289563723','GDDR6X,10GB,320BIT,1770MHz');
 
+insert into delivery (code,deliverytime,name,deliverytype,deliverytracking)
+values(null,'Monday-Friday','Overseas Express,GLS,DPD','Home delivery','Yes'),
+values(null,'Monday-Friday','DPD','Home delivery','Yes'),
+values(null,'Monday-Friday','Overseas Express','Home delivery','Yes'),
+values(null,'Monday-Friday','Hrvatska Pošta','Home delivery','Yes'),
+values(null,'Monday-Friday','OVERSEAS,DPD','Home delivery','Yes'),
