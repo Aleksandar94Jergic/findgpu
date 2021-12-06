@@ -50,4 +50,8 @@ values(null,'Futura IT','Donje Vrapče 53 10000 Zagreb','12599,99','24','Monday-
 
 insert into products (code,name,price,quantity,warranty,serialnumber,specification)
 values(null,'GeForce RTX 3080 Phantom+','13,999','7','24 months','877288762973','GDDR6X,10GB,320BIT,1755MHz'),
-values(null,'Gigabyte RTX 3080 10GB GDDR6X GAMING OC ','15,999','12','24 months','432665579396','GDDR6X,10GB,320BIT,1755MHz'),
+values(null,'Gigabyte RTX 3080 10GB GDDR6X GAMING OC','15,999','12','24 months','432665579396','GDDR6X,10GB,320BIT,1755MHz'),
+values(null,'INNO3D GeForce RTX 3080 iChill Black LHR','13,769','31','24 months','843986642633','GDDR6X,10GB,320BIT,1440-1755MHz'),
+values(null,'VGA Gigabyte GF RTX3080 AORUS X','14,599','4','24 months','894394772988','GDDR6X,10GB,320BIT,1755MHz'),
+values(null,'INNO3D GeForce RTX 3080 iChill X4 10 GB GDDR6X LHR','13,999','9','24 months','429289563723','GDDR6X,10GB,320BIT,1770MHz');
+
