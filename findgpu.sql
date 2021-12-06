@@ -47,3 +47,7 @@ values(null,'Ipon','Francia út. 40/b Budapest','10999,99','20','Monday-Friday 1
 values(null,'Ibyte','Andrije Hebraanga 9 21000 Zadar','13999,99','10','Monday-Friday 08:00AM-04:00PM','Monday-Friday 09:00AM-05:00PM','info@ibyte.hr'),
 values(null,'Proxima Informatika','Stjepana Radića 15 44250 Petrinja','14869,99','5','Monday-Friday 08:00AM-08:00PM','Monday-Friday 09:00AM-05:00PM','petrinja@proxima-informatika.hr'),
 values(null,'Futura IT','Donje Vrapče 53 10000 Zagreb','12599,99','24','Monday-Friday 09:00AM-02:00PM','Monday-Friday 09:00AM-04:00PM','info@futura-it.hr');
+
+insert into products (code,name,price,quantity,warranty,serialnumber,specification)
+values(null,'GeForce RTX 3080 Phantom+','13,999','7','24 months','877288762973','GDDR6X,10GB,320BIT,1755MHz'),
+values(null,'Gigabyte RTX 3080 10GB GDDR6X GAMING OC ','15,999','12','24 months','432665579396','GDDR6X,10GB,320BIT,1755MHz'),
